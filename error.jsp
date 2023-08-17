@@ -9,7 +9,7 @@ String exception = pageContext.getException().getClass().toString();
 <title>Exception</title>
 </head>
 <body>
-<h2>Ошибка-математическая операция невозможна</h2>
+<h2>Exception mathematic operation impossible</h2>
 <p>Type: <%=exception%></p>
 <p>message: <%=message%></p>
 </body>
